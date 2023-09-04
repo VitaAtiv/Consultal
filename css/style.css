@@ -38,6 +38,14 @@ h1, h2, h3 {
 .meet-container {
 }
 .meet-title {
+    color: #252B42;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.42; /* 142.5% */
+letter-spacing: 0.2px;
 }
 .meet-text {
 }
