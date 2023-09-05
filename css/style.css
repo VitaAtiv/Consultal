@@ -1,5 +1,6 @@
 .meet {
-    
+    padding-top: 75px;
+    padding-bottom: 124px;
 }
 
 .meet-container {
@@ -47,6 +48,11 @@ letter-spacing: 0.2px;
 }
 
 @media (min-width: 1080px) {
+    .meet {
+        padding-top: 80px;
+        padding-bottom: 92px;
+    }
+    
     .meet-container {
         width: 1076px;
     }
@@ -63,5 +69,8 @@ letter-spacing: 0.2px;
     }
     .meet-list-item {
         width: calc((100%-60px) / 3);
+    }
+    .meet-list-item:not(:last-child) {
+        margin-bottom: 0;
     }
 }
