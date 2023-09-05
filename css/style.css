@@ -37,11 +37,31 @@ letter-spacing: 0.2px;
 }
 
 .meet-list-item {
-   width: 328px;
+    width: 328px;
    height: 231px;
    background-color: rgb(142, 186, 253);
 }
 
 .meet-list-item:not(:last-child) {
     margin-bottom: 30px;
+}
+
+@media (min-width: 1080px) {
+    .meet-container {
+        width: 1076px;
+    }
+    .meet-title {
+        width: auto;
+    }
+    .meet-text {
+        width: 470px;
+        margin-bottom: 80px;
+    }
+    .meet-list {
+        display: flex;
+        gap: 30px;
+    }
+    .meet-list-item {
+        width: calc((100%-60px) / 3);
+    }
 }
