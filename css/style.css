@@ -102,6 +102,7 @@ letter-spacing: 0.2px;
 .meet-list-item {
     width: 328px;
    height: 373px;
+   padding-bottom: 30px;
    background-color: #FFF;
    border: 1px solid #EEE;
 }
@@ -135,11 +136,15 @@ font-weight: 600;
 line-height: 1.7; 
 letter-spacing: 0.2px;
 }
+.meet-list-item-icon {
+    display: flex;
+    gap: 15px;
+}
 
 .meet-list-item-icon-item-place-facebook {
     width: 24px;
 height: 24px;
-background-color: #0D5C63;
+/* background-color: #0D5C63; */
 }
 
 @media (min-width: 1080px) {
