@@ -136,6 +136,12 @@ line-height: 1.7;
 letter-spacing: 0.2px;
 }
 
+.meet-list-item-icon-item-place-facebook {
+    width: 24px;
+height: 24px;
+background-color: #0D5C63;
+}
+
 @media (min-width: 1080px) {
 
     .who {
