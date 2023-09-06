@@ -139,6 +139,7 @@ letter-spacing: 0.2px;
 .meet-list-item-icon {
     display: flex;
     gap: 15px;
+    justify-content: center;
 }
 
 .meet-list-item-icon-item-place-facebook {
