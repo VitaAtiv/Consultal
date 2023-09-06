@@ -277,6 +277,28 @@ height: 24px;
 
 @media (min-width: 1080px) {
 
+    .first-class-container {
+        width: 860px;
+        
+    }
+    
+    .first-class-title {
+        width: 635px;
+        height: 160px;
+        font-size: 58px;
+    font-weight: 800;
+    line-height: 1.37; 
+    letter-spacing: 0.2px;
+    }
+    .first-class-text {
+
+        text-align: center;
+            font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.2px;
+}
+
+
     .who {
         padding: 80px 0; 
         background: linear-gradient(#F3F3F3 calc(100% - 350px), #000 350px);   
