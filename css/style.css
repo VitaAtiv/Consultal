@@ -188,7 +188,10 @@ letter-spacing: 0.2px;
     margin-bottom: 30px;
 }
 
-.what-list-item-input {
+
+.what-list-item-imeg {
+    width: 18px;
+    height: 18px;
     margin-bottom: 20px;
 }
 .what-list-item-title {
@@ -368,6 +371,99 @@ height: 24px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 14.58%, rgba(56, 56, 56, 0.84) 100%), url(../img/video-comp.jpg);
     
     }
+
+
+
+
+/* section What */
+
+.what {
+    padding: 80px 0;
+}
+
+.what-container {
+    margin: 0 auto;
+    width: 1050px;
+    padding: 45px 0;
+}
+
+.what-title {  
+
+}
+
+.what-text{
+    width: 470px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    
+}
+
+
+.what-list-item {
+    padding: 30px 35px;
+    /* width: 327px; */
+    height: 244px;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+.what-list-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+
+.what-list-item-imeg {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 20px;
+}
+.what-list-item-title {
+    width: 95px;
+    height: 24px;
+    margin: 0 auto;
+    color: #FF7B47;
+font-size: 14px;
+font-weight: 600;
+line-height: 1.7; 
+letter-spacing: 0.2px;
+}
+
+.what-list-item-text {
+    margin-bottom: 20px;
+   
+}
+
+.what-list-item-box {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.what-list-item-name {
+    width: 95px;
+    height: 24px;
+    /* margin: 0 auto; */
+    color: #FF7B47;
+font-size: 14px;
+font-weight: 600;
+line-height: 1.7; 
+letter-spacing: 0.2px;
+    
+}
+
+
+.what-list-item-prof {
+    display: block;
+    color: #252B42;
+}
+
+
+
+
+
+
+    /* section meet */
 
     .meet {
         padding-top: 80px;

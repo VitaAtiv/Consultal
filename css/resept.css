@@ -26,7 +26,7 @@ ul, ol {
 }
 
 img {
-    display: block;
+    display: inline;
     max-width: 100%;
     height: auto;
 }
