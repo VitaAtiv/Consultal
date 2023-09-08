@@ -379,6 +379,7 @@ height: 24px;
 
 .what {
     padding: 80px 0;
+    background: #F3F3F3;
 }
 
 .what-container {
@@ -405,13 +406,12 @@ height: 24px;
 }
 
 
-.what-list-item {
-
-    
+.what-list-item {   
     margin-bottom: 0;
     width: 327px;
     height: 244px;
     padding: 30px 35px;
+    background: #FFF;
     border: 1px solid #DEDEDE;
     border-radius: 5px;
 }
