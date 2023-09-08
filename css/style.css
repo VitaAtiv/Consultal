@@ -399,17 +399,25 @@ height: 24px;
     
 }
 
+.what-list {
+    display: flex;
+    gap: 30px;
+}
+
 
 .what-list-item {
-    padding: 30px 35px;
-    /* width: 327px; */
+
+    
+    margin-bottom: 0;
+    width: 327px;
     height: 244px;
+    padding: 30px 35px;
     border: 1px solid #DEDEDE;
     border-radius: 5px;
 }
 
-.what-list-item:not(:last-child) {
-    margin-bottom: 30px;
+.what-list-item {
+    margin-bottom: 0;
 }
 
 
