@@ -81,6 +81,16 @@ transition: background-color 300ms ease-in;
     border: 3px solid #0D5C63;
 } 
 
+
+/* section industry */
+
+.industry-list-item-icon {
+    width: 48px;
+    height: 40px;
+    background-color: #0D5C63;
+}
+
+
 /* section who */
 
 
