@@ -289,6 +289,7 @@ letter-spacing: 0.2px;
    
 }
 
+
 .meet-list-item {
     width: 328px;
    height: 373px;
@@ -299,6 +300,11 @@ letter-spacing: 0.2px;
 
 .meet-list-item:not(:last-child) {
     margin-bottom: 30px;
+}
+
+.meet-list-item.rodney,
+.meet-list-item.avie {
+    display: none;
 }
 
 .meet-list-item-image {
@@ -332,7 +338,10 @@ letter-spacing: 0.2px;
     justify-content: center;
 }
 
-.meet-list-item-icon-item-place-facebook {
+.meet-list-item-icon-item-place-facebook,
+.meet-list-item-icon-item-place-insta,
+.meet-list-item-icon-item-place-twit {
+    display: block;
     width: 24px;
 height: 24px;
 /* background-color: #0D5C63; */
@@ -368,7 +377,7 @@ height: 24px;
     }
 
     .who-container {
-        width: 880px;
+        width: 910px;
     }
 
     .who-text {
@@ -508,4 +517,16 @@ letter-spacing: 0.2px;
     .meet-list-item:not(:last-child) {
         margin-bottom: 0;
     }
+
+    .meet-list-item.rodney,
+.meet-list-item.avie {
+    display: block;
+}
+
+.meet-list-item.ben,
+.meet-list-item.ben2 {
+    display: none;
+}
+
+
 }
