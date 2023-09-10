@@ -84,11 +84,15 @@ transition: background-color 300ms ease-in;
 
 /* section industry */
 
+
+
 .industry-list-item-icon {
     width: 48px;
     height: 40px;
     background-color: #0D5C63;
 }
+
+
 
 
 /* section who */
@@ -385,6 +389,10 @@ height: 24px;
         margin-bottom: 50px;
     }
 
+    .who-text-next {
+        display: block;
+    }
+
     .who-video {
         width: 877px;
     height: 442px;
@@ -418,6 +426,9 @@ height: 24px;
     margin-bottom: 80px;
     
 }
+.what-text-next {
+    display: block;
+}
 
 .what-list {
     display: flex;
@@ -427,16 +438,20 @@ height: 24px;
 
 .what-list-item {   
     margin-bottom: 0;
-    width: 327px;
-    height: 244px;
-    padding: 30px 35px;
+    /* width: 327px; */
+    /* height: 244px; */
+    /* padding: 30px 35px; */
     background: #FFF;
     border: 1px solid #DEDEDE;
     border-radius: 5px;
 }
 
 .what-list-item {
-    margin-bottom: 0;
+    width: calc((100%-60px) / 3);
+}
+
+.what-list-item:not(:last-child) {
+     margin-bottom: 0;
 }
 
 
