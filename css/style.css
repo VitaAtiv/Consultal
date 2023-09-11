@@ -417,6 +417,8 @@ height: 24px;
     background-color: #252B42;
 }
 .footer-container {
+    margin: 0 auto; 
+    width: 351px; 
 }
 .footer-top-soc {
 }
