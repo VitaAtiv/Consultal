@@ -420,9 +420,20 @@ height: 24px;
     margin: 0 auto; 
     width: 351px; 
 }
+
+.footer-container.top {
+    padding: 53px 0 70px;
+}
+
 .footer-top-soc {
 }
 .footer-top-soc-title {
+    margin-bottom: 63px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.33; 
+    letter-spacing: 0.1px;
 }
 .footer-top-soc-title-list {
 }
@@ -477,6 +488,15 @@ height: 24px;
 
 }
 .footer-copyright-text {
+    width: 221px;
+    margin: 0 auto;
+    padding: 25px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7; 
+    letter-spacing: 0.2px;
 }
 
 
