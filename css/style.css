@@ -410,6 +410,72 @@ height: 24px;
 /* background-color: #0D5C63; */
 }
 
+
+/* footer */
+
+.footer-top {
+    background-color: #252B42;
+}
+.footer-container {
+}
+.footer-top-soc {
+}
+.footer-top-soc-title {
+}
+.footer-top-soc-title-list {
+}
+.footer-top-soc-title-list-item {
+}
+.footer-top-soc-title-list-item-link {
+}
+.footer-top-soc-title-list-item-link-icon {
+}
+.footer-top-info {
+}
+.footer-top-info-links {
+}
+.footer-top-info-links-title {
+}
+.footer-top-info-links-list {
+}
+.footer-top-info-links-list-item {
+}
+.footer-top-info-form {
+}
+.footer-top-info-form-title {
+}
+.footer-top-info-form-wrap {
+    position: relative;
+    
+}
+.footer-top-info-form-input {
+    width: 100%;
+    height: 58px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+.footer-top-info-form-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 117px;
+    height: 58px;
+    background: #FF7B47;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #E6E6E6;
+}
+.footer-top-info-form-text {
+}
+.footer-copyright {
+    background-color: #17213C;
+
+}
+.footer-copyright-text {
+}
+
+
+
+
 @media (min-width: 1080px) {
 
     .first-class-container {
