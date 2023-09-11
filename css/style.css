@@ -170,11 +170,11 @@ transition: background-color 300ms ease-in;
 .who-title {
     margin-bottom: 10px;
     color: #252B42;
-text-align: center;
-font-size: 40px;
-font-weight: 700;
-line-height: 1.42; 
-letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.42; 
+    letter-spacing: 0.2px;
 }
 
 .who-text {
@@ -182,19 +182,19 @@ letter-spacing: 0.2px;
     width: 225px;
     margin-bottom: 60px;
     color: #737373;
-text-align: center;
-font-size: 14px;
-font-weight: 500;
-line-height: 1.42; 
-letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.42; 
+    letter-spacing: 0.2px;
 }
 
 .who-video {
     position: relative;
     margin: 0 auto;
     width: 306px;
-height: 442px;
-background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 14.58%, rgba(56, 56, 56, 0.84) 100%), url(../img/video-mobile.jpg);
+    height: 442px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 14.58%, rgba(56, 56, 56, 0.84) 100%), url(../img/video-mobile.jpg);
 
 }
 
@@ -206,11 +206,11 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 14.58%, rgba(56, 56, 56,
     width: 98px;
     height: 98px;
     border-radius: 50%;
-background-color: #0D5C63;
-background-image: url(../img/play.svg);
-background-repeat: no-repeat;
-background-position: center;
-transform: translate(-50%, -50%);
+    background-color: #0D5C63;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -232,11 +232,11 @@ transform: translate(-50%, -50%);
 .what-title {
     margin-bottom: 10px;
     color: #252B42;
-text-align: center;
-font-size: 40px;
-font-weight: 700;
-line-height: 1.42; 
-letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.42; 
+    letter-spacing: 0.2px;
 }
 
 .what-text{
@@ -273,10 +273,10 @@ letter-spacing: 0.2px;
     height: 24px;
     margin: 0 auto;
     color: #FF7B47;
-font-size: 14px;
-font-weight: 600;
-line-height: 1.7; 
-letter-spacing: 0.2px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7; 
+    letter-spacing: 0.2px;
 }
 
 .what-list-item-text {
@@ -295,10 +295,10 @@ letter-spacing: 0.2px;
     height: 24px;
     /* margin: 0 auto; */
     color: #FF7B47;
-font-size: 14px;
-font-weight: 600;
-line-height: 1.7; 
-letter-spacing: 0.2px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7; 
+    letter-spacing: 0.2px;
     
 }
 
@@ -448,6 +448,8 @@ height: 24px;
         
 }
 .industry-text {
+    margin: 0 auto;
+    margin-bottom: 45px;
     width: 470px;
     text-align: center;
         
@@ -463,6 +465,7 @@ height: 24px;
 }
 .industry-list-item {
    margin-bottom: 0;
+   /* width: calc((100%-60px) / 3); */
     
 }
 
@@ -481,6 +484,7 @@ height: 24px;
 }
 
 .industry-list-item-title {
+ 
     color: #252B42;
     font-size: 16px;
     font-weight: 700;
@@ -488,6 +492,7 @@ height: 24px;
     letter-spacing: 0.1px;
 }
 .industry-list-item-text {
+    
     color: #737373;
     font-size: 14px;
     font-weight: 500;
@@ -588,10 +593,10 @@ height: 24px;
     height: 24px;
     margin: 0 auto;
     color: #FF7B47;
-font-size: 14px;
-font-weight: 600;
-line-height: 1.7; 
-letter-spacing: 0.2px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7; 
+    letter-spacing: 0.2px;
 }
 
 .what-list-item-text {
@@ -610,10 +615,10 @@ letter-spacing: 0.2px;
     height: 24px;
     /* margin: 0 auto; */
     color: #FF7B47;
-font-size: 14px;
-font-weight: 600;
-line-height: 1.7; 
-letter-spacing: 0.2px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7; 
+    letter-spacing: 0.2px;
     
 }
 
@@ -622,7 +627,6 @@ letter-spacing: 0.2px;
     display: block;
     color: #252B42;
 }
-
 
 
 
@@ -657,14 +661,14 @@ letter-spacing: 0.2px;
     }
 
     .meet-list-item.rodney,
-.meet-list-item.avie {
+    .meet-list-item.avie {
     display: block;
-}
+    }
 
-.meet-list-item.ben,
-.meet-list-item.ben2 {
-    display: none;
-}
+    .meet-list-item.ben,
+    .meet-list-item.ben2 {
+        display: none;
+    }
 
 
 }
