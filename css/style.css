@@ -427,10 +427,14 @@ height: 24px;
 .footer-top-soc-title-list {
 }
 .footer-top-soc-title-list-item {
+    display: inline;
 }
 .footer-top-soc-title-list-item-link {
+    
 }
 .footer-top-soc-title-list-item-link-icon {
+    width: 24px;
+    height: 24px;
 }
 .footer-top-info {
 }
