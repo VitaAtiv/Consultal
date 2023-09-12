@@ -262,6 +262,10 @@ transition: background-color 300ms ease-in;
     margin-bottom: 30px;
 }
 
+.what-list-item-star-item {
+    display: flex;
+}
+
 
 .what-list-item-imeg {
     width: 18px;
@@ -415,6 +419,7 @@ height: 24px;
 
 .footer-top {
     background-color: #252B42;
+    color: #FFF;
 }
 .footer-container {
     margin: 0 auto; 
@@ -423,13 +428,14 @@ height: 24px;
 
 .footer-container.top {
     padding: 53px 0 70px;
+    
 }
 
 .footer-top-soc {
 }
 .footer-top-soc-title {
     margin-bottom: 63px;
-    color: #FFF;
+    /* color: #FFF; */
     font-size: 24px;
     font-weight: 700;
     line-height: 1.33; 
@@ -438,28 +444,59 @@ height: 24px;
 .footer-top-soc-title-list {
 }
 .footer-top-soc-title-list-item {
-    display: inline;
-}
-.footer-top-soc-title-list-item-link {
+    display: inline-block;
+   
     
 }
+.footer-top-soc-title-list-item:not(:last-child) {
+    margin-right: 20px;
+}
+.footer-top-soc-title-list-item-link {
+    /* display: block; */
+}
+
+
 .footer-top-soc-title-list-item-link-icon {
     width: 24px;
     height: 24px;
+
 }
 .footer-top-info {
 }
 .footer-top-info-links {
 }
 .footer-top-info-links-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5; 
+    letter-spacing: 0.1px;
 }
 .footer-top-info-links-list {
+    margin-bottom: 30px;
 }
 .footer-top-info-links-list-item {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7; 
+    letter-spacing: 0.2px;
+}
+.footer-top-info-links-list-item:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-top-info-links-list-item-info {
+    cursor: pointer;
 }
 .footer-top-info-form {
+    
 }
 .footer-top-info-form-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5; 
+    letter-spacing: 0.1px;
 }
 .footer-top-info-form-wrap {
     position: relative;
@@ -467,9 +504,11 @@ height: 24px;
 }
 .footer-top-info-form-input {
     width: 100%;
+    padding-left: 20px;
     height: 58px;
     border: 1px solid #E6E6E6;
     border-radius: 5px;
+    font-size: 18px;
 }
 .footer-top-info-form-btn {
     position: absolute;
@@ -481,19 +520,28 @@ height: 24px;
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #E6E6E6;
 }
+
+.footer-top-info-form-input:hover {
+   
+}
+
 .footer-top-info-form-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2.3; 
+    letter-spacing: 0.2px;
 }
 
 
 
 .footer-copyright {
+    padding: 25px 0;
     background-color: #17213C;
 
 }
 .footer-copyright-text {
     width: 221px;
     margin: 0 auto;
-    padding: 25px 0;
     color: #FFF;
     text-align: center;
     font-size: 14px;
