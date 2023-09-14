@@ -444,7 +444,7 @@ height: 24px;
 .footer-top-soc-title-list {
 }
 .footer-top-soc-title-list-item {
-    display: block;
+    /* display: block; */
    
     
 }
@@ -453,14 +453,16 @@ height: 24px;
 }
 .footer-top-soc-title-list-item-link {
     display: block;
-}
-
-.footer-top-soc-title-list-item-link
-
-.footer-top-soc-title-list-item-link-icon {
     width: 24px;
     height: 24px;
+}
 
+
+.footer-top-soc-title-list-item-link-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    
 }
 .footer-top-info {
 }
