@@ -37,7 +37,11 @@
 }
 .logo-navigation-link {
     display: block;
-    
+    cursor: pointer;
+}
+
+.logo-navigation-link:hover {
+
 }
 
 .logo-navigation-link:not(:last-child) {
@@ -45,9 +49,9 @@
 }
 
 .logo-doo {
-    
 
 }
+
 .logo-doo-icon {
     width: 24px;
     height: 24px;
