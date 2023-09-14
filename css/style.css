@@ -38,10 +38,11 @@
 .logo-navigation-link {
     display: block;
     cursor: pointer;
+   
 }
 
 .logo-navigation-link:hover {
-
+    text-decoration: underline;
 }
 
 .logo-navigation-link:not(:last-child) {
