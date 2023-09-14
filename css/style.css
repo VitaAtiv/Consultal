@@ -444,7 +444,7 @@ height: 24px;
 .footer-top-soc-title-list {
 }
 .footer-top-soc-title-list-item {
-    display: inline-block;
+    display: block;
    
     
 }
@@ -452,9 +452,10 @@ height: 24px;
     margin-right: 20px;
 }
 .footer-top-soc-title-list-item-link {
-    /* display: block; */
+    display: block;
 }
 
+.footer-top-soc-title-list-item-link
 
 .footer-top-soc-title-list-item-link-icon {
     width: 24px;
@@ -555,26 +556,38 @@ height: 24px;
 
 @media (min-width: 1080px) {
 
+    /* section first */
+
+    .first-class {
+        padding: 80px 0;
+    }
+
     .first-class-container {
         width: 860px;
-        
+        height: 428px;
+        margin: 0 auto;
+        padding: 40px 0;
     }
     
     .first-class-title {
         width: 635px;
-        height: 160px;
-        font-size: 58px;
-    font-weight: 800;
-    line-height: 1.37; 
-    letter-spacing: 0.2px;
+        margin-bottom: 40px;
+       
     }
     .first-class-text {
-
-        text-align: center;
-            font-weight: 500;
-    line-height: 1.5; 
-    letter-spacing: 0.2px;
+width: 539px;
+margin: 0 auto;
+margin-bottom: 40px;
+      
 }
+
+.first-class-box {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
 
 
 /* section industry */
