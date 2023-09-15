@@ -627,6 +627,93 @@ height: 24px;
 
 @media (min-width: 1080px) {
 
+/* section logo */
+
+.logo {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background: #FFF;
+}
+
+.logo-container {
+    display: flex;
+    gap: none;
+    width: 1050px;
+    height: 104px;
+    margin: 0 auto;
+   
+}
+
+.logo-title {
+    margin-right: 533px;
+}
+
+.logo-navigation {
+    margin-right: 39px;
+    
+}
+.logo-navigation-list {
+display: flex;
+gap: 21px;
+}
+
+.logo-navigation {
+    /* position: relative; 
+    top: 0;
+    left: 0;
+    translate: 0 0; */
+}
+
+
+.logo-navigation-list {
+    color: #737373;
+    text-align: center;
+  
+    font-size: 14px;
+   
+    font-weight: 600;
+    line-height: 1.7; 
+    letter-spacing: 0.2px;
+}
+
+
+
+.logo-navigation-link {
+    /* display: block;
+    cursor: pointer; */
+   
+}
+
+.logo-navigation-link:hover {
+    text-decoration: underline;
+}
+
+.logo-navigation-link:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.logo-doo {
+
+}
+
+.logo-doo-icon {
+    width: 24px;
+    height: 24px;
+    
+}
+.logo-doo-icon.search {
+    margin-right: 24px;
+}
+
+.logo-doo-icon.shopping {
+    margin-right: 32px;
+}
+
+
+
+
+
+
     /* section first */
 
     .first-class {
