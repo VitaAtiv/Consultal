@@ -513,7 +513,7 @@ height: 24px;
 .footer-top-soc-title-list {
 }
 .footer-top-soc-title-list-item {
-    display: block;
+    /* display: block; */
    
     
 }
@@ -521,14 +521,14 @@ height: 24px;
     margin-right: 20px;
 }
 .footer-top-soc-title-list-item-link {
-    display: block;
+    /* display: block; */
     width: 24px;
     height: 24px;
 }
 
 
 .footer-top-soc-title-list-item-link-icon {
-    display: block;
+    /* display: block; */
     width: 24px;
     height: 24px;
     
