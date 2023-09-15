@@ -511,24 +511,25 @@ height: 24px;
     letter-spacing: 0.1px;
 }
 .footer-top-soc-title-list {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 110px;
 }
 .footer-top-soc-title-list-item {
-    /* display: block; */
+    
    
     
 }
 .footer-top-soc-title-list-item:not(:last-child) {
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 .footer-top-soc-title-list-item-link {
-    /* display: block; */
     width: 24px;
     height: 24px;
 }
 
 
 .footer-top-soc-title-list-item-link-icon {
-    /* display: block; */
     width: 24px;
     height: 24px;
     
