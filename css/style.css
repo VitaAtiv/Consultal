@@ -1053,21 +1053,15 @@ width: 150px;
 }
 
 .footer-container.end {
-    margin-left: 0;
+    margin: 0 auto;
     width: 1050px; 
 }
 
 .footer-copyright-text {
-    /* margin-left: 0; */
+     
     width: 1050px;
-    /* width: 221px;
-    margin: 0 auto; */
-    /* color: #FFF;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.7; 
-    letter-spacing: 0.2px; */
+    text-align: start;
+   
 }
 
 
