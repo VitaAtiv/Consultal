@@ -630,6 +630,17 @@ height: 24px;
 
 
 
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+ .who-video {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 14.58%, rgba(56, 56, 56, 0.84) 100%), url(../img/video-mobile@2x.jpg);
+    background-size: cover;
+    background-position: center;
+}   
+}
+
+
+
+
 
 @media (min-width: 1080px) {
 
@@ -863,6 +874,14 @@ margin-bottom: 40px;
     height: 442px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 14.58%, rgba(56, 56, 56, 0.84) 100%), url(../img/video-comp.jpg);
     
+    }
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .who-video {
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 14.58%, rgba(56, 56, 56, 0.84) 100%), url(../img/video-comp@2x.jpg);
+            background-size: cover; 
+            
+        }  
     }
 
 
@@ -1102,3 +1121,11 @@ width: 150px;
 
 
 }
+
+/* @media (min-width: 1080px) and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .who-video {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 14.58%, rgba(56, 56, 56, 0.84) 100%), url(../img/video-comp@2x.jpg);
+        background-size: cover; 
+        background-position: center; 
+    }  
+} */
