@@ -1,6 +1,6 @@
 
 /* section logo */
-
+/* 
 .logo {
     padding-top: 36px;
     background-color: var(--accent-color);
@@ -66,7 +66,106 @@
 .logo-doo-icon.shopping {
     margin-right: 32px;
 }
+ */
 
+ /* section header */
+ header {
+    padding: 36px 0 98px;
+    background-color: #F6F6F6;;
+ }
+
+ .header-service-item-btn,
+ .header-service-item-btn-icon,
+ .header-burger {
+    padding: 0;
+    color: inherit;
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+
+ }
+
+ .header-container {
+}
+.heder-mobile-wrap {
+    display: flex;
+    margin-bottom: 96px;
+    align-items: center;
+    justify-content: center;
+}
+.header-logotyp {
+    margin-right: 97px;
+    color: #252B42;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.33; 
+    letter-spacing: 0.1px;
+}
+
+.header-menu {
+    display: none;
+    margin-right: 39px;
+}
+
+
+.header-menu-list {
+    display: flex;
+    gap: 21px;
+}
+
+.header-menu-list-item {
+color: #737373;
+text-align: center;
+font-size: 14px;
+font-weight: 600;
+line-height: 1.71; 
+letter-spacing: 0.2px;
+}
+
+
+
+
+.header-service {
+    display: flex;
+    gap: 24px;
+    margin-right: 32px;
+}
+.header-service-item {
+}
+.header-service-item-btn {
+    display: block;
+}
+.header-service-item-btn-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+.header-burger {
+}
+.header-burger-icon {
+    display: block;
+    width: 24px;
+    height: 14px;
+}
+.header-mobile-menu {
+}
+.header-mobile-menu-list {
+    text-align: center;
+}
+.header-mobile-menu-list-item {
+    color:  #737373;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.2px;
+}
+
+.header-mobile-menu-list-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.header-mobile-menu-list-item-link {
+}
 
 
 /* section first-class */
@@ -647,7 +746,7 @@ height: 24px;
 
 /* section logo */
 
-.logo {
+/* .logo {
     padding-top: 36px;
     padding-bottom: 36px;
     background: #FAFAFA;
@@ -686,10 +785,7 @@ gap: 21px;
 }
 
 .logo-navigation {
-    /* position: relative; 
-    top: 0;
-    left: 0;
-    translate: 0 0; */
+
 }
 
 
@@ -707,9 +803,7 @@ gap: 21px;
 
 
 .logo-navigation-link {
-    /* display: block;
-    cursor: pointer; */
-   
+     
 }
 
 .logo-navigation-link:hover {
@@ -741,16 +835,56 @@ gap: 21px;
 .logo-doo-icon.burger {
     display: none;
 }
+ */
+
+ /* section header */
+
+ header {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FAFAFA;;
+ }
+
+ .heder-mobile-wrap {
+    margin-bottom: 0;
+ }
+ .header-logotyp {
+    margin-right: 533px;
+ }
+
+ 
+.header-mobile-menu {
+display: none;
+}
+.header-menu {
+    display: block;
+  }
 
 
+.header-service-item-btn-icon.search {
+    width: 20px;
+    height: 20px;
+}
 
+.header-service-item-btn-icon.shopping {
+    width: 16px;
+    height: 16px;
+}
+.header-service {
+    margin-right: 0;
+    gap: 18px;
+}
 
-
+.header-burger {
+    display: none;
+}
 
     /* section first */
+    
 
     .first-class {
-        padding: 80px 0;
+        padding: 224px 0 120px;
         background: #FAFAFA;
     }
 

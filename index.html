@@ -57,28 +57,65 @@
     <header>
       <div class="header-container">
         <div class="heder-mobile-wrap">
+          <a class="header-logotyp" href="#">Consultal</a>
 
+          <nav class="header-menu">
+            <ul class="header-menu-list">
+              <li class="header-menu-list-item">
+                <a class="header-menu-list-item-link" href="#">Home</a>
+              </li>
+              <li class="header-menu-list-item">
+                <a class="header-menu-list-item-link" href="#">Product</a>
+              </li>
+              <li class="header-menu-list-item">
+                <a class="header-menu-list-item-link" href="#">Pricing</a>
+              </li>
+              <li class="header-menu-list-item">
+                <a class="header-menu-list-item-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="header-service">
+            <li class="header-service-item">
+              <button class="header-service-item-btn" type="button">
+                <svg class="header-service-item-btn-icon search">
+                  <use href="./img/logo/iconLogo.svg#icon-search"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="header-service-item">
+              <button class="header-service-item-btn" type="button">
+                <svg class="header-service-item-btn-icon shopping">
+                  <use href="./img/logo/iconLogo.svg#icon-shopping"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+          <button class="header-burger" type="button">
+            <svg class="header-burger-icon">
+              <use href="./img/logo/iconLogo.svg#icon-menu"></use>
+            </svg>
+          </button>
         </div>
         <nav class="header-mobile-menu">
           <ul class="header-mobile-menu-list">
             <li class="header-mobile-menu-list-item">
-              <a href="header-mobile-menu-list-item-link"></a>
+              <a class="header-mobile-menu-list-item-link" href="#">Home</a>
             </li>
             <li class="header-mobile-menu-list-item">
-              <a href="header-mobile-menu-list-item-link"></a>
+              <a class="header-mobile-menu-list-item-link" href="#">Product</a>
             </li>
             <li class="header-mobile-menu-list-item">
-              <a href="header-mobile-menu-list-item-link"></a>
+              <a class="header-mobile-menu-list-item-link" href="#">Pricing</a>
             </li>
             <li class="header-mobile-menu-list-item">
-              <a href="header-mobile-menu-list-item-link"></a>
+              <a class="header-mobile-menu-list-item-link" href="#">Contact</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-
-
 
     <main>
       <section class="first-class">
@@ -215,38 +252,85 @@
             Problems trying to resolve the conflict between
             <span class="what-text-next">
               the two major realms of Classical physics: Newtonian
-              mechanics</span>
+              mechanics</span
+            >
           </p>
 
           <ul class="what-list">
             <li class="what-list-item">
-              <img class="what-list-item-imeg" src="./img/what/Star-yellow.svg" alt="" />
-              <img class="what-list-item-imeg" src="./img/what/Star-yellow.svg" alt="" />
-              <img class="what-list-item-imeg" src="./img/what/Star-yellow.svg" alt="" />
-              <img class="what-list-item-imeg" src="./img/what/Star-yellow.svg" alt="" />
-              <img class="what-list-item-imeg" src="./img/what/Star-white.svg" alt="" />
-          </ul>
+              <img
+                class="what-list-item-imeg"
+                src="./img/what/Star-yellow.svg"
+                alt=""
+              />
+              <img
+                class="what-list-item-imeg"
+                src="./img/what/Star-yellow.svg"
+                alt=""
+              />
+              <img
+                class="what-list-item-imeg"
+                src="./img/what/Star-yellow.svg"
+                alt=""
+              />
+              <img
+                class="what-list-item-imeg"
+                src="./img/what/Star-yellow.svg"
+                alt=""
+              />
+              <img
+                class="what-list-item-imeg"
+                src="./img/what/Star-white.svg"
+                alt=""
+              />
+
               <p class="what-list-item-text">
                 Slate helps you see how many more days you need to work to reach
                 your financial goal.
               </p>
               <div class="what-list-item-box">
                 <picture>
-                  <source type="image/avif"
-                  srcset="./img/what/Regina1.avif 1x, ./img/what/Regina1@2x.avif 2x"
-                  media="(max-width: 414px)"
-                />
-                  <source type="image/webp"
-                  srcset="./img/what/Regina1.webp 1x, ./img/what/Regina1@2x.webp 2x"
-                  media="(max-width: 414px)"
-                />
                   <source
-                    srcset="./img/what/Regina1.jpg 1x, ./img/what/Regina1@2x.jpg 2x"
+                    type="image/avif"
+                    srcset="
+                      ./img/what/Regina1.avif    1x,
+                      ./img/what/Regina1@2x.avif 2x
+                    "
                     media="(max-width: 414px)"
                   />
-                  <source type="image/avif" srcset="./img/what/ben2el.avif 1x, ./img/what/ben2el@2x.avif 2x"/>
-                  <source type="image/webp" srcset="./img/what/ben2el.webp 1x, ./img/what/ben2el@2x.webp 2x"/>
-                  <img src="./img/what/ben2el.jpg 1x, ./img/what/ben2el@2x.jpg 2x" alt="photo1" />
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./img/what/Regina1.webp    1x,
+                      ./img/what/Regina1@2x.webp 2x
+                    "
+                    media="(max-width: 414px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/what/Regina1.jpg    1x,
+                      ./img/what/Regina1@2x.jpg 2x
+                    "
+                    media="(max-width: 414px)"
+                  />
+                  <source
+                    type="image/avif"
+                    srcset="
+                      ./img/what/ben2el.avif    1x,
+                      ./img/what/ben2el@2x.avif 2x
+                    "
+                  />
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./img/what/ben2el.webp    1x,
+                      ./img/what/ben2el@2x.webp 2x
+                    "
+                  />
+                  <img
+                    src="./img/what/ben2el.jpg 1x, ./img/what/ben2el@2x.jpg 2x"
+                    alt="photo1"
+                  />
                 </picture>
                 <p class="what-list-item-name">
                   Regina Miles
@@ -288,21 +372,47 @@
               </p>
               <div class="what-list-item-box">
                 <picture>
-                  <source type="image/avif"
-                  srcset="./img/what/Regina2.avif 1x, ./img/what/Regina2@2x.avif 2x"
-                  media="(max-width: 414px)"
-                />
-                  <source type="image/webp"
-                  srcset="./img/what/Regina2.webp 1x, ./img/what/Regina2@2x.webp 2x"
-                  media="(max-width: 414px)"
-                />
                   <source
-                    srcset="./img/what/Regina2.jpg 1x, ./img/what/Regina2@2x.jpg 2x"
+                    type="image/avif"
+                    srcset="
+                      ./img/what/Regina2.avif    1x,
+                      ./img/what/Regina2@2x.avif 2x
+                    "
                     media="(max-width: 414px)"
                   />
-                  <source type="image/avif" srcset="./img/what/bobel.avif 1x, ./img/what/bobel@2x.avif 2x"/>
-                  <source type="image/webp" srcset="./img/what/bobel.webp 1x, ./img/what/bobel@2x.webp 2x"/>
-                  <img src="./img/what/bobel.jpg 1x, ./img/what/bobel@2x.jpg 2x" alt="photo2" />
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./img/what/Regina2.webp    1x,
+                      ./img/what/Regina2@2x.webp 2x
+                    "
+                    media="(max-width: 414px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/what/Regina2.jpg    1x,
+                      ./img/what/Regina2@2x.jpg 2x
+                    "
+                    media="(max-width: 414px)"
+                  />
+                  <source
+                    type="image/avif"
+                    srcset="
+                      ./img/what/bobel.avif    1x,
+                      ./img/what/bobel@2x.avif 2x
+                    "
+                  />
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./img/what/bobel.webp    1x,
+                      ./img/what/bobel@2x.webp 2x
+                    "
+                  />
+                  <img
+                    src="./img/what/bobel.jpg 1x, ./img/what/bobel@2x.jpg 2x"
+                    alt="photo2"
+                  />
                 </picture>
                 <p class="what-list-item-name">
                   Regina Miles
@@ -343,21 +453,47 @@
               </p>
               <div class="what-list-item-box">
                 <picture>
-                  <source type="image/avif"
-                  srcset="./img/what/Regina3.avif 1x, ./img/what/Regina3@2x.avif 2x"
-                  media="(max-width: 414px)"
-                />
-                  <source type="image/webp"
-                  srcset="./img/what/Regina3.webp 1x, ./img/what/Regina3@2x.webp 2x"
-                  media="(max-width: 414px)"
-                />
                   <source
-                    srcset="./img/what/Regina3.jpg 1x, ./img/what/Regina3@2x.jpg 2x"
+                    type="image/avif"
+                    srcset="
+                      ./img/what/Regina3.avif    1x,
+                      ./img/what/Regina3@2x.avif 2x
+                    "
                     media="(max-width: 414px)"
                   />
-                  <source type="image/avif" srcset="./img/what/samantael.avif 1x, ./img/what/samantael@2x.avif 2x"/>
-                  <source type="image/webp" srcset="./img/what/samantael.webp 1x, ./img/what/samantael@2x.webp 2x"/>
-                  <img src="./img/what/samantael.jpg 1x, ./img/what/samantael@2x.jpg 2x" alt="photo3" />
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./img/what/Regina3.webp    1x,
+                      ./img/what/Regina3@2x.webp 2x
+                    "
+                    media="(max-width: 414px)"
+                  />
+                  <source
+                    srcset="
+                      ./img/what/Regina3.jpg    1x,
+                      ./img/what/Regina3@2x.jpg 2x
+                    "
+                    media="(max-width: 414px)"
+                  />
+                  <source
+                    type="image/avif"
+                    srcset="
+                      ./img/what/samantael.avif    1x,
+                      ./img/what/samantael@2x.avif 2x
+                    "
+                  />
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./img/what/samantael.webp    1x,
+                      ./img/what/samantael@2x.webp 2x
+                    "
+                  />
+                  <img
+                    src="./img/what/samantael.jpg 1x, ./img/what/samantael@2x.jpg 2x"
+                    alt="photo3"
+                  />
                 </picture>
                 <p class="what-list-item-name">
                   Regina Miles
@@ -445,18 +581,23 @@
               <picture>
                 <source
                   type="image/avif"
-                  srcset="./img/meet/Ashley.avif 1x, ./img/meet/Ashley@2x.avif 2x"
+                  srcset="
+                    ./img/meet/Ashley.avif    1x,
+                    ./img/meet/Ashley@2x.avif 2x
+                  "
                 />
                 <source
                   type="image/webp"
-                  srcset="./img/meet/ashley.webp 1x, ./img/meet/Ashley@2x.webp 2x"
+                  srcset="
+                    ./img/meet/ashley.webp    1x,
+                    ./img/meet/Ashley@2x.webp 2x
+                  "
                 />
-               <img
+                <img
                   class="meet-list-item-image"
                   src="./img/meet/ashley.jpg 1x, ./img/meet/Ashley@2x.jpg 2x"
                   alt=""
                 />
-
               </picture>
               <h5 class="meet-list-item-title">Ashley Fletcher</h5>
               <p class="meet-list-item-text">CEO</p>
@@ -502,8 +643,14 @@
 
             <li class="meet-list-item ben2">
               <picture>
-                <source type="image/avif" srcset="./img/meet/ben2.avif 1x, ./img/meet/Ben2@2x.avif 2x" />
-                <source type="image/webp" srcset="./img/meet/ben2.webp 1x, ./img/meet/Ben2@2x.webp 2x" />
+                <source
+                  type="image/avif"
+                  srcset="./img/meet/ben2.avif 1x, ./img/meet/Ben2@2x.avif 2x"
+                />
+                <source
+                  type="image/webp"
+                  srcset="./img/meet/ben2.webp 1x, ./img/meet/Ben2@2x.webp 2x"
+                />
                 <img
                   class="meet-list-item-image"
                   src="./img/meet/ben2.jpg 1x, ./img/meet/ben2@2x.jpg 2x"
@@ -556,11 +703,17 @@
               <picture>
                 <source
                   type="image/avif"
-                  srcset="./img/meet/rodney.avif 1x, ./img/meet/Rodney@2x.avif 2x"
+                  srcset="
+                    ./img/meet/rodney.avif    1x,
+                    ./img/meet/Rodney@2x.avif 2x
+                  "
                 />
                 <source
                   type="image/webp"
-                  srcset="./img/meet/rodney.webp 1x, ./img/meet/Rodney@2x.webp 2x"
+                  srcset="
+                    ./img/meet/rodney.webp    1x,
+                    ./img/meet/Rodney@2x.webp 2x
+                  "
                 />
                 <img
                   class="meet-list-item-image"
@@ -612,8 +765,14 @@
 
             <li class="meet-list-item avie">
               <picture>
-                <source type="image/avif" srcset="./img/meet/avie.avif 1x, ./img/meet/Avie@2x.avif 2x" />
-                <source type="image/webp" srcset="./img/meet/avie.webp 1x, ./img/meet/Avie@2x.webp 2x" />
+                <source
+                  type="image/avif"
+                  srcset="./img/meet/avie.avif 1x, ./img/meet/Avie@2x.avif 2x"
+                />
+                <source
+                  type="image/webp"
+                  srcset="./img/meet/avie.webp 1x, ./img/meet/Avie@2x.webp 2x"
+                />
                 <img
                   class="meet-list-item-image"
                   src="./img/meet/avie.jpg 1x, ./img/meet/avie@2x.jpg 2x"
@@ -689,9 +848,7 @@
               <li class="footer-top-soc-title-list-item">
                 <a class="footer-top-soc-title-list-item-link" href="">
                   <svg class="footer-top-soc-title-list-item-link-icon">
-                    <use
-                      href="./img/footer/iconSoc.svg#icon-twitter"
-                    ></use>
+                    <use href="./img/footer/iconSoc.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
@@ -709,33 +866,77 @@
             <div class="footer-top-info-links">
               <h4 class="footer-top-info-links-title">Company Info</h4>
               <ul class="footer-top-info-links-list">
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">About Us</a></li>
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">Carrier</a></li>
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">We are hiring</a></li>
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">Blog</a></li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >About Us</a
+                  >
+                </li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >Carrier</a
+                  >
+                </li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >We are hiring</a
+                  >
+                </li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >Blog</a
+                  >
+                </li>
               </ul>
             </div>
 
             <div class="footer-top-info-links">
               <h4 class="footer-top-info-links-title">Legal</h4>
               <ul class="footer-top-info-links-list">
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">About Us</a></li>
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">Carrier</a></li>
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">We are hiring</a></li>
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">Blog</a></li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >About Us</a
+                  >
+                </li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >Carrier</a
+                  >
+                </li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >We are hiring</a
+                  >
+                </li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >Blog</a
+                  >
+                </li>
               </ul>
             </div>
 
             <div class="footer-top-info-links">
               <h4 class="footer-top-info-links-title">Features</h4>
               <ul class="footer-top-info-links-list">
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">Business Marketing</a>
-                  
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >Business Marketing</a
+                  >
                 </li>
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">User Analytic</a></li>
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">Live Chat</a></li>
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">Unlimited Support</a>
-                  
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >User Analytic</a
+                  >
+                </li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >Live Chat</a
+                  >
+                </li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >Unlimited Support</a
+                  >
                 </li>
               </ul>
             </div>
@@ -743,10 +944,26 @@
             <div class="footer-top-info-links">
               <h4 class="footer-top-info-links-title">Resources</h4>
               <ul class="footer-top-info-links-list">
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">IOS & Android</a></li>
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">Watch a Demo</a></li>
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">Customers</a></li>
-                <li class="footer-top-info-links-list-item"><a class="footer-top-info-links-list-item-info" href="#">API</a></li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >IOS & Android</a
+                  >
+                </li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >Watch a Demo</a
+                  >
+                </li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >Customers</a
+                  >
+                </li>
+                <li class="footer-top-info-links-list-item">
+                  <a class="footer-top-info-links-list-item-info" href="#"
+                    >API</a
+                  >
+                </li>
               </ul>
             </div>
 
