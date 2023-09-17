@@ -1,3 +1,11 @@
+
+:root {
+    --accent-color: #F6F6F6;
+    --primary-color: #737373;
+    --desc-color: #79797C;
+    --unicum-color: #FF7B47;
+}
+
 html{  
     box-sizing: border-box;
 }
