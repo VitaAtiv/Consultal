@@ -75,7 +75,7 @@
  }
 
  .header-service-item-btn,
- .header-service-item-btn-icon,
+ /* .header-service-item-btn-icon, */
  .header-burger {
     padding: 0;
     color: inherit;
@@ -114,15 +114,36 @@
 }
 
 .header-menu-list-item {
+    
 color: #737373;
 text-align: center;
 font-size: 14px;
 font-weight: 600;
 line-height: 1.71; 
 letter-spacing: 0.2px;
+
+}
+
+.header-menu-list-item-link {
+    position: relative;
+    overflow: hidden;
+}
+
+.header-menu-list-item-link::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+width: 1005px;
+height: 2px;
+background-color: #000;
 }
 
 
+
+.header-menu-list-item:hover {
+     /* text-decoration: underline; */
+}
 
 
 .header-service {
