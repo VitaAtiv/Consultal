@@ -695,6 +695,8 @@ height: 24px;
     appearance: none;
 }
 .make-form-aria {
+    width: 286px;
+height: 140px;
     margin-bottom: 40px;
 }
 .make-form-btn {
