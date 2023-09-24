@@ -709,6 +709,7 @@ height: 24px;
 /* footer */
 
 .footer-top {
+    padding: 53px 0 70px;
     background-color: #252B42;
     color: #FFF;
 }
@@ -718,8 +719,7 @@ height: 24px;
 }
 
 .footer-container.top {
-    padding: 53px 0 70px;
-    width: 351px; 
+        width: 351px; 
     
 }
 
@@ -1292,7 +1292,9 @@ margin-bottom: 40px;
 
 /* footer */
 
-
+.footer-container-top {
+    padding: 40px 0 70px;
+}
 
 .footer-container {
 /* margin: 0; */
@@ -1301,7 +1303,7 @@ margin-bottom: 40px;
 }
 
 .footer-container.top {
-    padding: 40px 0 70px;
+    
     width: 1050px; 
 }
 
