@@ -264,7 +264,7 @@ font-size: 14px;
 font-weight: 700;
 line-height: 2.0; 
 letter-spacing: 0.2px;
-border: 1px solid #000;
+background-color: #FFF;
 border-radius: 37px;
 border: 1px solid #0D5C63;
 cursor: pointer;
@@ -274,7 +274,7 @@ transition: background-color 300ms ease-in;
 .first-class-box-btn-learn:hover {
     color: #FFF;
     background-color: #0D5C63;
-    border: 3px solid #0D5C63;
+    
 } 
 
 
@@ -653,6 +653,7 @@ height: 24px;
 .make-form {
 }
 .make-form-wrap-input {
+    margin-bottom: 20px;
 }
 
 .make-form-select-wrap, .make-form-input {
@@ -693,20 +694,82 @@ height: 24px;
     appearance: none;
 }
 .make-form-aria {
+    margin-bottom: 40px;
 }
 .make-form-btn {
+    width: 286px;
+    height: 58px;
+    padding: 15px 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2; 
+    letter-spacing: 0.2px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #FF7B47;
+    transition: color 300ms ease-in;
+    transition: background-color 300ms ease-in;
+    transition: border 300ms ease-in;
 }
+
+.make-form-btn:hover {
+    color: #FF7B47;
+    border: 1px solid #FF7B47;
+    background-color: #FFF;
+}
+
 .consulting {
+    padding: 40px 0;
+    background-color: #FAFAFA;
 }
 .consulting-container {
+    margin: 0 auto;
+    width: 285px;
 }
 .consulting-wrap-text {
+    margin-bottom: 50px;
+    
 }
 .consulting-title {
+    width: 239px;
+    margin-bottom: 10px;
+    color: #252B42;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.33; 
+    letter-spacing: 0.1px;
 }
 .consulting-text {
+    color: #737373;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.42; 
+    letter-spacing: 0.2px;
 }
 .consulting-btn {
+    width: 283px;
+    height: 58px;
+    padding: 15px 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2; 
+    letter-spacing: 0.2px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #FF7B47;
+    transition: color 300ms ease-in;
+    transition: background-color 300ms ease-in;
+    transition: border 300ms ease-in;
+}
+
+.consulting-btn:hover {
+    color: #FF7B47;
+    border: 1px solid #FF7B47;
+    background-color: #FFF;
 }
 
 
