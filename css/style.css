@@ -466,6 +466,79 @@ transition: background-color 300ms ease-in;
     border-radius: 5px;
 }
 
+/* rating star */
+
+.what-list-item-rating {
+    margin: 0 0 20px 0;
+    padding: 0;
+    border: none;
+}
+
+.what-list-item-rating-group {
+    position: relative;
+    width: 110px;
+    height: 22px;
+    background-image: url(../img/what/Star-white.svg);
+    background-size: 22px auto;
+    background-repeat: repeat-x;
+}
+
+.what-list-item-rating-group:focus-within {
+outline:  solid 1px #79797C;
+outline-offset: 5px;
+}
+
+.what-list-item-rating-star {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 22px;
+    font-size: inherit;
+    background-size: 22px auto;
+    background-repeat: repeat-x;
+    -webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
+.what-list-item-rating-star:focus {
+    outline: none;
+}
+
+.what-list-item-rating-star:checked,
+.what-list-item-rating-star:hover {
+    background-image: url(../img/what/Star-yellow.svg);
+}
+
+.what-list-item-rating-star:hover ~ .what-list-item-rating-star {
+    background-image: url(../img/what/Star-white.svg);
+}
+
+.what-list-item-rating-star:nth-of-type(1) {
+    z-index: 5;
+    width: 22px;
+}
+.what-list-item-rating-star:nth-of-type(2) {
+    z-index: 4;
+    width: 44px;
+}
+
+.what-list-item-rating-star:nth-of-type(3) {
+    z-index: 3;
+    width: 66px;
+}
+
+.what-list-item-rating-star:nth-of-type(4) {
+    z-index: 2;
+    width: 88px;
+}
+.what-list-item-rating-star:nth-of-type(5) {
+    z-index: 1;
+    width: 110px;
+}
+/* end rating star */
+
 .what-list-item:not(:last-child) {
     margin-bottom: 30px;
 }
