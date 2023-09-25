@@ -1439,13 +1439,20 @@ margin-bottom: 40px;
 .make-form {
     width: 602px;
     margin-left: start;
+    
 }
 .make-form-wrap-input {
     display: flex;
     gap: 20px;
-    /* flex-wrap: wrap; */
-
+    flex-wrap: wrap;
+    justify-content: space-between;
    }
+
+   .make-form-input,
+   .make-form-select {
+    width: 285px;
+   }
+
 
 .make-form-select-wrap, .make-form-input {
     margin-bottom: 0;
