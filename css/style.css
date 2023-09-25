@@ -484,7 +484,7 @@ transition: background-color 300ms ease-in;
 }
 
 .what-list-item-rating-group:focus-within {
-outline:  solid 1px #79797C;
+outline:  solid 1px #FF7B47;
 outline-offset: 5px;
 }
 
