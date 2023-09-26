@@ -572,7 +572,7 @@ appearance: none;
 .what-list-item-box {
     display: flex;
     gap: 15px;
-    margin-bottom: 30px;
+    
 }
 
 .what-list-item-name {
@@ -703,7 +703,7 @@ height: 24px;
 .make {
     padding-top: 115px;
     padding-bottom: 85px;
-    background-image: url(../img/make/make-bg.jpg);
+    background-image: url(../img/make/make-bg.webp);
     background-repeat: no-repeat;
     background-position: center;
     
@@ -767,6 +767,7 @@ height: 24px;
     background: #F9F9F9;
 }
 .make-form-select {
+    
     appearance: none;
 }
 .make-form-aria {
@@ -786,7 +787,7 @@ textarea {
     width: 100%; 
     height: 140px; 
     resize: none; 
-    padding: 16px 26px 100px 26px;
+    padding: 16px 26px 0 26px;
     display: block;
     color: #BDBDBD;
     border-radius: 5px;
@@ -1373,18 +1374,14 @@ margin-bottom: 40px;
 
 
 .what-list-item {   
-    margin-bottom: 0;
-    /* width: 327px; */
-    /* height: 244px; */
-    /* padding: 30px 35px; */
+    /* margin-bottom: 0; */
+    width: calc((100% - 60px) / 3);
     background: #FFF;
     border: 1px solid #DEDEDE;
     border-radius: 5px;
 }
 
-.what-list-item {
-    width: calc((100%-60px) / 3);
-}
+
 
 .what-list-item:not(:last-child) {
      margin-bottom: 0;
@@ -1412,11 +1409,6 @@ margin-bottom: 40px;
    
 }
 
-.what-list-item-box {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 30px;
-}
 
 .what-list-item-name {
     width: 95px;
@@ -1487,7 +1479,7 @@ margin-bottom: 40px;
 /* selection make*/
 .make {
     padding: 90px 0;
-    background-image: url(../img/make/make-bg-comp.jpg);
+    background-image: url(../img/make/make-bg-comp.webp);
     background-size: cover;  
 }
 
@@ -1495,7 +1487,7 @@ margin-bottom: 40px;
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .make {
-        background-image: url(../img/make/make-bg-comp@2x.jpg);
+        background-image: url(../img/make/make-bg-comp@2x.webp);
         background-size: cover; 
         
     }  
@@ -1522,9 +1514,16 @@ margin-bottom: 40px;
    }
 
    .make-form-input,
-   .make-form-select {
-    width: 285px;
+   .make-form-select-wrap {
+    /* width: 285px; */
+    width: calc((100% - 20px) / 2);
    }
+
+   .make-form-select {
+    width: 100%;
+
+   }
+ 
 
 
 .make-form-select-wrap, .make-form-input {
